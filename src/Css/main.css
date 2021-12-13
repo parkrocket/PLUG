@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* 공통 */
+#contents .title{width: 100%; margin-bottom: 20px;}
+#contents .title:nth-child(3){padding-right:0px;}
+#contents .title h2{display: inline-block; font-size: 20px; font-weight: bold; color: #222!important;}
+#contents .title a{float: right; font-size: 15px; color: #aaaaaa; margin-top: 8px;}
+
+/* 이미지 없을 때 */
+.best_talk ul li .img{width: 100%; height: 180px; background: #999; border-radius: 5px;}
+.market_item .item_box a .img{width: 100%; height: 216px; background: #999; border-radius: 5px;}
+.club .club_ul .club_box .img{width: 100%; height: 270px; background: #999; border-radius:5px;}
+.event_wrap .event .event_box .event_bn{width: 100%; height: 248px; background: #999; border-radius: 5px;}
+
+/* banner */
+.main_wrap .banner{display: flex; justify-content: space-between; width: 100%; height: 210px; margin-bottom: 80px;}
+.main_wrap .main_bn{width: 847px; height: 100%;}
+.main_wrap .main_bn .bn_list{position: relative; width: 100%; height: 100%;}
+.main_wrap .main_bn .bn_list .bn_img{position: absolute; width: 100%; border-radius: 5px; overflow: hidden;}
+.main_wrap .main_bn .bn_list .bn_img img{width: 100%;}
+.main_wrap .bn_side{width: 269px; height: 100%;}
+.main_wrap .bn_side div#ol_before{padding:20px;}
+.ol{position:relative;border:1px solid #eee;margin-bottom:15px;border-radius:5px; font-size:14px; background:#f7f7f7; color:#222;}
+.main_wrap .bn_side .top_txt{margin-bottom:15px;text-align:center;}
+.main_wrap .bn_side .login{margin-bottom:10px;}
+.main_wrap .bn_side .login a{display:block; height:45px; text-align:center; line-height:45px; font-size:16px; background:#ff6114; color:#fff; border-radius:5px;}
+.main_wrap .bn_side .join{margin-bottom:20px;}
+.main_wrap .bn_side .join a{display:block; height:45px; text-align:center; line-height:45px; font-size:16px; background:#000; color:#fff; border-radius:5px;}
+.main_wrap .bn_side .pw_lost{text-align:center;margin-top:25px;}
+
+/* 게시판 추천글 */
+.main_wrap .best_talk_wrap{width: 100%;  margin: 0 auto 80px;}
+.main_wrap .best_talk_wrap .best_talk{width: 100%;}
+.main_wrap .best_talk ul{display: flex; width: 100%;}
+.main_wrap .best_talk ul li{width: 23.7%; margin-right: 20px;}
+.main_wrap .best_talk ul li:nth-child(4){margin-right: 0;}
+.main_wrap .best_talk ul li img{width: 100%; border-radius: 5px;}
+.main_wrap .best_talk ul li .tit_wrap{display: flex; align-items: center;}
+.main_wrap .best_talk ul li .tit{max-width: 90%; margin: 10px 0 8px; font-size: 15px; font-weight: bold; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.main_wrap .best_talk ul li .count{margin: 10px 0 8px 5px; color: #f3213b; font-size:15px;}
+.main_wrap .best_talk ul li .cont{width: 100%; font-size: 12px; color: #999999; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+
+.main_wrap .notice{margin-top: 52px; display:flex; height: 322px;} 
+.main_wrap .notice .container{ width: 100%; margin-bottom: 12px; padding-right:10px; padding-left:0px;} 
+.main_wrap .notice .container:nth-child(2n){padding-left:10px;padding-right:10px;}
+.main_wrap .notice .container:nth-child(3n){padding-left:10px;padding-right:0px;}
+.main_wrap .notice .container .item_wrap{width: 100%; display:inline-block;}
+.main_wrap .notice .container .item{display: flex; justify-content: space-between; } 
+.main_wrap .notice .container .item a{display: inline-block; font-size: 13px; line-height: 21px;} 
+.main_wrap .notice .container .item a .tit{max-width:280px; white-space:nowrap; overflow:hidden;
+text-overflow:ellipsis; display:inline-block} 
+.main_wrap .notice .container .item a>.count{font-size: 13px; line-height: 20px;color: #f3213b; vertical-align:top} 
+.main_wrap .notice .container .item .time{float: right; font-size: 11px; line-height: 24px; color: #999999; cursor: default;}
+
+/* middle_bn */
+.main_wrap .middle_bn{width: 100%; height: 102px; margin: 0 auto 80px;}
+.main_wrap .middle_bn img{width: 100%;}
+
+/* market */
+.market_wrap{width: 100%; height: auto; margin: 0 auto 80px;}
+.market_item_wrap .market_item{display: flex; flex-wrap:wrap}
+.market_item .item_box{width: 19%; margin: 0 14px 30px 0;}
+.market_item .item_box:nth-child(5n){margin-right: 0;}
+.market_item .item_box a{display: block;}
+.market_item .item_box a img{width: 100%; border-radius: 5px;}
+.market_item .item_box a .area{display: block; margin: 10px 0 8px; font-size: 11px; color: #999999;}
+.market_item .item_box a .product{width: 100%; margin-bottom: 10px; font-size: 13px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.market_item .item_box .price{font-size: 18px; font-weight: bold; margin-bottom: 15px;}
+.market_item .item_box .price .sell{display: inline; color: #f3213b;}
+.market_item .item_box .price>p{display: inline-block;color:#222!important;}
+.market_item .item_box .tag{ height:26px; overflow:hidden;}
+.market_item .item_box .tag span{margin-right:1px; display: inline-block; padding: 6px 10px; background: #f1f5fb; border-radius: 12px; font-size: 12px; letter-spacing: -1px; margin-bottom:3px;}
+
+/* club */
+.club_wrap{width: 100%; margin: 0 auto 80px;}
+.club_wrap .club{}
+.club .club_ul{display: flex;}
+.club .club_ul .club_box{display: inline-block; position: relative; width: 24%; height: 270px; margin: 0 0 20px 16px; border-radius: 5px; overflow: hidden;}
+.club .club_ul .club_box:first-child{margin-left:0px;}
+.club .club_ul .club_box .num{position: absolute; top: 10px; left: 10px; z-index: 888;}
+.club .club_ul .club_box .img{width: 100%; height: 100%; border-radius:5px; vertical-align:bottom}
+.club .club_ul .club_box .img img{width: 100%; height: 100%; border-radius:5px; vertical-align:bottom}
+.club .club_ul .club_box .img_bg{display: block; position: absolute; top: 0; left: 0; z-index: 777;  width: 100%; height: 100%; background: linear-gradient(rgb(255, 255, 255,0.1), rgb(0, 0, 0,0.7)); border-radius: 5px;}
+.club .club_ul .club_box .club_tit{position: absolute; bottom: 20px; left: 20px; z-index: 777; width: 229px; font-size: 13px; font-weight: bold; color: #ffffff; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; line-height : 17px;}
+.club .club_ul .club_box .club_tit p{width:100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+/* event */
+.event_wrap{ margin-bottom: 100px;}
+.event_list{display: flex; flex-wrap: wrap;}
+.event_list .event_item{width: 32.1%; height: 300px; margin: 0 20px 40px 0;}
+.event_list .event_item:nth-child(3n){margin-right: 0;}
+.event_list .event_item .event_bn{width: 100%; height: 248px; border-radius: 5px; background: #999; overflow: hidden;}
+.event_list .event_item .event_info{padding: 15px 0;}
+.event_list .event_item .td_datetime{width: 100%; margin-bottom: 5px; text-align: left!important; font-size: 13px; color: #999;}
+.event_list .event_item  .td_subject{ font-size: 15px; font-weight: bold;}
+.event_list .event_item.event_end .event_bn img{filter: brightness(50%);}
+.event_list .event_item.event_end .td_datetime,
+.event_list .event_item.event_end .bo_tit a{color: #bbb;}
+.event_list .event_item.event_end .td_datetime:after{content: '종료'; margin-left: 5px;}
+
+
+
+
+
+
+
+
+
+
+
