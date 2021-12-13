@@ -3,6 +3,7 @@ import mainBn from './Images/main_bn_bg01.jpg';
 import middleBn from './Images/main_middle_bn.jpg';
 import './Css/default.css';
 import './Css/main.css';
+import { Link } from 'react-router-dom';
 
 function Main(){
     return (
@@ -17,7 +18,7 @@ function Main(){
                     <div id='ol_before' className='ol'>
                         <div>
                             <p className='top_txt'>로그인 후 더욱 편리하게 이용하세요</p>
-                            <p className='login'><a href='#!'>로그인</a></p>
+                            <p className='login'><Link to="/login">로그인</Link></p>
                             <p className='join'><a href='#!'>회원가입</a></p>
                             <p className='pw_lost'><a href='#!'>비밀번호찾기</a></p>
                         </div>
@@ -37,7 +38,7 @@ function Main(){
                                 <div className='img'></div>
                                 <div className='tit_wrap'>
                                     <p className='tit'>test</p>
-                                    <span className='count'>(1)</span>
+                                    <p className='count'>(1)</p>
                                 </div>
                                 <p className='cont'>testtesttesttesttesttesttesttesttesttesttesttesttest</p>
                             </a>
@@ -54,7 +55,7 @@ function Main(){
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttesttesttesttesttesttesttesttest</p>
-                                    <span className='count'>(2)</span>
+                                    <p className='count'>(2)</p>
                                 </a>
                                 <span className='time'>21.08.07</span>
                             </div>
@@ -69,7 +70,7 @@ function Main(){
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttesttesttesttesttesttesttesttest</p>
-                                    <span className='count'></span>
+                                    <p className='count'></p>
                                 </a>
                                 <span className='time'>21.08.07</span>
                             </div>
@@ -84,70 +85,70 @@ function Main(){
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
-                                    <span className='count'>(8)</span>
+                                    <p className='count'>(8)</p>
                                 </a>
                                 <span className='time'></span>
                             </div>
@@ -170,7 +171,7 @@ function Main(){
                         <div className='item_box'>
                             <a href='#!'>
                                 <div className='img'></div>
-                                <span className='area'></span>
+                                <p className='area'></p>
                                 <p className='product'></p>
                             </a>
                             <div className='price'>
@@ -184,7 +185,7 @@ function Main(){
                         <div className='item_box'>
                             <a href='#!'>
                                 <div className='img'></div>
-                                <span className='area'></span>
+                                <p className='area'></p>
                                 <p className='product'></p>
                             </a>
                             <div className='price'>
@@ -198,7 +199,7 @@ function Main(){
                         <div className='item_box'>
                             <a href='#!'>
                                 <div className='img'></div>
-                                <span className='area'></span>
+                                <p className='area'></p>
                                 <p className='product'></p>
                             </a>
                             <div className='price'>
@@ -212,7 +213,7 @@ function Main(){
                         <div className='item_box'>
                             <a href='#!'>
                                 <div className='img'></div>
-                                <span className='area'></span>
+                                <p className='area'></p>
                                 <p className='product'></p>
                             </a>
                             <div className='price'>
@@ -226,7 +227,7 @@ function Main(){
                         <div className='item_box'>
                             <a href='#!'>
                                 <div className='img'></div>
-                                <span className='area'></span>
+                                <p className='area'></p>
                                 <p className='product'></p>
                             </a>
                             <div className='price'>
@@ -240,7 +241,7 @@ function Main(){
                         <div className='item_box'>
                             <a href='#!'>
                                 <div className='img'></div>
-                                <span className='area'></span>
+                                <p className='area'></p>
                                 <p className='product'></p>
                             </a>
                             <div className='price'>
@@ -254,7 +255,7 @@ function Main(){
                         <div className='item_box'>
                             <a href='#!'>
                                 <div className='img'></div>
-                                <span className='area'></span>
+                                <p className='area'></p>
                                 <p className='product'></p>
                             </a>
                             <div className='price'>
@@ -278,7 +279,7 @@ function Main(){
                     <div className='club_ul'>
                         <a href='#!' className='club_box'>
                             <div className='img'><img src='' alt=''/></div>
-                            <span className='img_bg'></span>
+                            <p className='img_bg'></p>
                             <div className='club_tit'>
                                 <p className='area_num'>지역/5명</p>
                                 <p className='tit'>동호회명</p>
@@ -286,7 +287,7 @@ function Main(){
                         </a>
                         <a href='#!' className='club_box'>
                             <div className='img'><img src='' alt=''/></div>
-                            <span className='img_bg'></span>
+                            <p className='img_bg'></p>
                             <div className='club_tit'>
                                 <p className='area_num'>지역/5명</p>
                                 <p className='tit'>동호회명</p>
@@ -294,7 +295,7 @@ function Main(){
                         </a>
                         <a href='#!' className='club_box'>
                             <div className='img'><img src='' alt=''/></div>
-                            <span className='img_bg'></span>
+                            <p className='img_bg'></p>
                             <div className='club_tit'>
                                 <p className='area_num'>지역/5명</p>
                                 <p className='tit'>동호회명</p>
@@ -302,7 +303,7 @@ function Main(){
                         </a>
                         <a href='#!' className='club_box'>
                             <div className='img'><img src='' alt=''/></div>
-                            <span className='img_bg'></span>
+                            <p className='img_bg'></p>
                             <div className='club_tit'>
                                 <p className='area_num'>지역/5명</p>
                                 <p className='tit'>동호회명</p>
@@ -333,7 +334,7 @@ function Main(){
                                         <a href='#!'>
                                             이벤트 제목
                                         </a>
-                                        <span className='new_icon'>N<span className='sound_only'>새글</span></span>
+                                        <p className='new_icon'>N<span className='sound_only'>새글</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -354,7 +355,7 @@ function Main(){
                                         <a href='#!'>
                                             이벤트 제목
                                         </a>
-                                        <span className='new_icon'>N<span className='sound_only'>새글</span></span>
+                                        <p className='new_icon'>N<span className='sound_only'>새글</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -375,7 +376,7 @@ function Main(){
                                         <a href='#!'>
                                             이벤트 제목
                                         </a>
-                                        <span className='new_icon'>N<span className='sound_only'>새글</span></span>
+                                        <p className='new_icon'>N<span className='sound_only'>새글</span></p>
                                     </div>
                                 </div>
                             </div>
