@@ -17,7 +17,7 @@ const Login = () => {
 
     let data = { mb_id: mbId, mb_pass: mbPass };
     axios
-      .post('http://175.125.95.182:4000/php/login.php', data)
+      .post('http://175.125.95.182:4000/login', data)
       .then((res) => {
         console.log(res);
       })
