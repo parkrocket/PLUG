@@ -45,12 +45,11 @@
 .main_wrap .notice .container:nth-child(2n){padding-left:10px;padding-right:10px;}
 .main_wrap .notice .container:nth-child(3n){padding-left:10px;padding-right:0px;}
 .main_wrap .notice .container .item_wrap{width: 100%; display:inline-block;}
-.main_wrap .notice .container .item{display: flex; justify-content: space-between; } 
-.main_wrap .notice .container .item a{display: inline-block; font-size: 13px; line-height: 21px;} 
-.main_wrap .notice .container .item a .tit{max-width:280px; white-space:nowrap; overflow:hidden;
-text-overflow:ellipsis; display:inline-block} 
-.main_wrap .notice .container .item a>.count{font-size: 13px; line-height: 20px;color: #f3213b; vertical-align:top} 
-.main_wrap .notice .container .item .time{float: right; font-size: 11px; line-height: 24px; color: #999999; cursor: default;}
+.main_wrap .notice .container .item{display: flex; justify-content: space-between; margin-bottom: 3px;} 
+.main_wrap .notice .container .item a{display: flex; align-items: center; font-size: 13px; line-height: 21px;} 
+.main_wrap .notice .container .item a .tit{max-width:280px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:inline-block} 
+.main_wrap .notice .container .item a>.count{margin-left: 2px; font-size: 13px; line-height: 20px;color: #f3213b; vertical-align:top} 
+.main_wrap .notice .container .item .time{font-size: 11px; line-height: 24px; color: #999999; cursor: default;}
 
 /* middle_bn */
 .main_wrap .middle_bn{width: 100%; height: 102px; margin: 0 auto 80px;}
@@ -91,13 +90,15 @@ text-overflow:ellipsis; display:inline-block}
 .event_list .event_item:nth-child(3n){margin-right: 0;}
 .event_list .event_item .event_bn{width: 100%; height: 248px; border-radius: 5px; background: #999; overflow: hidden;}
 .event_list .event_item .event_info{padding: 15px 0;}
-.event_list .event_item .td_datetime{width: 100%; margin-bottom: 5px; text-align: left!important; font-size: 13px; color: #999;}
-.event_list .event_item  .td_subject{ font-size: 15px; font-weight: bold;}
+.event_list .event_item .datetime{width: 100%; margin-bottom: 5px; text-align: left!important; font-size: 13px; color: #999;}
+.event_list .event_item .tit_wrap{display: flex; align-items: center; font-size: 15px; font-weight: bold;}
+.event_list .event_item .tit_wrap .bo_tit{}
+.event_list .event_item .new_icon{display: none;}
 .event_list .event_item.event_end .event_bn img{filter: brightness(50%);}
-.event_list .event_item.event_end .td_datetime,
-.event_list .event_item.event_end .bo_tit a{color: #bbb;}
-.event_list .event_item.event_end .bo_tit .new_icon{display: inline-block;}
-.event_list .event_item.event_end .td_datetime:after{content: '종료'; margin-left: 5px;}
+.event_list .event_item.event_end .datetime,
+.event_list .event_item.event_end .bo_tit{color: #bbb;}
+.event_list .event_item.event_end .new_icon{display: none;}
+.event_list .event_item.event_end .datetime:after{content: '종료'; margin-left: 5px;}
 
 
 

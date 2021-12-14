@@ -87,70 +87,70 @@ function Main(){
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                             <div className='item'>
                                 <a href='#!'>
                                     <p className='tit'>testtesttesttesttesttest</p>
                                     <p className='count'>(8)</p>
                                 </a>
-                                <span className='time'></span>
+                                <span className='time'>21.08.07</span>
                             </div>
                         </div>
                     </div>
@@ -323,61 +323,46 @@ function Main(){
                         <a href='#!'>
                             <div className='event_bn'><img src='' alt=''/></div>
                             <div className='event_info'>
-                                <div className='td_datetime'>
+                                <div className='datetime'>
                                     2021.11.09 - 2021.11.13
                                 </div>
-                                <div className='td_subject'>
-                                
-                                    <a href='#!' className='bo_cate_link'></a>
-                                    
-                                    <div className='bo_tit'>
-                                        <a href='#!'>
-                                            이벤트 제목
-                                        </a>
-                                        <p className='new_icon'>N<span className='sound_only'>새글</span></p>
-                                    </div>
+                                <div className='tit_wrap'>
+                                    <p className='bo_tit'>
+                                        이벤트 제목
+                                    </p>
+                                    <p className='new_icon'>N<span className='sound_only'>새글</span></p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div className='event_item'>
-                        <a href='#!'>
+                    <a href='#!'>
                             <div className='event_bn'><img src='' alt=''/></div>
                             <div className='event_info'>
-                                <div className='td_datetime'>
+                                <div className='datetime'>
                                     2021.11.09 - 2021.11.13
                                 </div>
-                                <div className='td_subject'>
-                                
-                                    <a href='#!' className='bo_cate_link'></a>
-                                    
-                                    <div className='bo_tit'>
-                                        <a href='#!'>
-                                            이벤트 제목
-                                        </a>
-                                        <p className='new_icon'>N<span className='sound_only'>새글</span></p>
-                                    </div>
+                                <div className='tit_wrap'>
+                                    <p className='bo_tit'>
+                                        이벤트 제목
+                                    </p>
+                                    <p className='new_icon'>N<span className='sound_only'>새글</span></p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div className='event_item'>
+                    <div className='event_item event_end'>
                         <a href='#!'>
                             <div className='event_bn'><img src='' alt=''/></div>
                             <div className='event_info'>
-                                <div className='td_datetime'>
+                                <div className='datetime'>
                                     2021.11.09 - 2021.11.13
                                 </div>
-                                <div className='td_subject'>
-                                
-                                    <a href='#!' className='bo_cate_link'></a>
-                                    
-                                    <div className='bo_tit'>
-                                        <a href='#!'>
-                                            이벤트 제목
-                                        </a>
-                                        <p className='new_icon'>N<span className='sound_only'>새글</span></p>
-                                    </div>
+                                <div className='tit_wrap'>
+                                    <p className='bo_tit'>
+                                        이벤트 제목
+                                    </p>
+                                    <p className='new_icon'>N<span className='sound_only'>새글</span></p>
                                 </div>
                             </div>
                         </a>
