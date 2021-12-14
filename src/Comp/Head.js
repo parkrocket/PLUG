@@ -2,6 +2,7 @@ import React from 'react';
 import searchIcon from '../Images/search_icon.png';
 import '../Css/default.css';
 import '../Css/comp.css';
+import { Link } from 'react-router-dom';
 
 function Head(){
     return (
@@ -20,7 +21,7 @@ function Head(){
                 <div className='header_bg'>
                     <div className='search_bar_wrap'>
                         <div className='h_top_wrap'>
-                            <h1 className='logo'><a href='#!'><img src='' alt='로고'/></a></h1>
+                            <h1 className='logo'><Link to='/'><img src='' alt='로고'/></Link></h1>
                             <form name='fsearchbox' method='get' action='#!'>
                                 <input type='hidden' name='sfl' value='wr_subject||wr_content||wr_3'/>
                                 <input type='hidden' name='sop' value='and'/>
@@ -86,7 +87,7 @@ function Head(){
                             <li><a href='#!'>로그아웃</a></li>
                             <li className='tnb_admin'><a href='#!'>관리자</a></li> */}
                             <li><a href='#!'>회원가입</a></li>
-                            <li><a href='#!'>로그인</a></li>
+                            <li><Link to='/login'>로그인</Link></li>
                             <li className='write_btn'>
                                 <button className='write_drop'>글쓰기</button>
                             </li>
