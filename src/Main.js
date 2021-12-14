@@ -3,6 +3,7 @@ import mainBn from './Images/main_bn_bg01.jpg';
 import middleBn from './Images/main_middle_bn.jpg';
 import './Css/default.css';
 import './Css/main.css';
+import { Link } from 'react-router-dom';
 
 function Main() {
   return (
@@ -22,7 +23,7 @@ function Main() {
             <div>
               <p className="top_txt">로그인 후 더욱 편리하게 이용하세요</p>
               <p className="login">
-                <a href="#!">로그인</a>
+                <Link to="/login">로그인</Link>
               </p>
               <p className="join">
                 <a href="#!">회원가입</a>
@@ -47,7 +48,7 @@ function Main() {
                 <div className="img"></div>
                 <div className="tit_wrap">
                   <p className="tit">test</p>
-                  <span className="count">(1)</span>
+                  <p className="count">(1)</p>
                 </div>
                 <p className="cont">testtesttesttesttesttesttesttesttesttesttesttesttest</p>
               </a>
@@ -64,7 +65,7 @@ function Main() {
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttesttesttesttesttesttesttesttest</p>
-                  <span className="count">(2)</span>
+                  <p className="count">(2)</p>
                 </a>
                 <span className="time">21.08.07</span>
               </div>
@@ -79,7 +80,7 @@ function Main() {
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttesttesttesttesttesttesttesttest</p>
-                  <span className="count"></span>
+                  <p className="count"></p>
                 </a>
                 <span className="time">21.08.07</span>
               </div>
@@ -94,72 +95,72 @@ function Main() {
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
               <div className="item">
                 <a href="#!">
                   <p className="tit">testtesttesttesttesttest</p>
-                  <span className="count">(8)</span>
+                  <p className="count">(8)</p>
                 </a>
-                <span className="time"></span>
+                <span className="time">21.08.07</span>
               </div>
             </div>
           </div>
@@ -182,7 +183,7 @@ function Main() {
             <div className="item_box">
               <a href="#!">
                 <div className="img"></div>
-                <span className="area"></span>
+                <p className="area"></p>
                 <p className="product"></p>
               </a>
               <div className="price">
@@ -196,7 +197,7 @@ function Main() {
             <div className="item_box">
               <a href="#!">
                 <div className="img"></div>
-                <span className="area"></span>
+                <p className="area"></p>
                 <p className="product"></p>
               </a>
               <div className="price">
@@ -210,7 +211,7 @@ function Main() {
             <div className="item_box">
               <a href="#!">
                 <div className="img"></div>
-                <span className="area"></span>
+                <p className="area"></p>
                 <p className="product"></p>
               </a>
               <div className="price">
@@ -224,7 +225,7 @@ function Main() {
             <div className="item_box">
               <a href="#!">
                 <div className="img"></div>
-                <span className="area"></span>
+                <p className="area"></p>
                 <p className="product"></p>
               </a>
               <div className="price">
@@ -238,7 +239,7 @@ function Main() {
             <div className="item_box">
               <a href="#!">
                 <div className="img"></div>
-                <span className="area"></span>
+                <p className="area"></p>
                 <p className="product"></p>
               </a>
               <div className="price">
@@ -252,7 +253,7 @@ function Main() {
             <div className="item_box">
               <a href="#!">
                 <div className="img"></div>
-                <span className="area"></span>
+                <p className="area"></p>
                 <p className="product"></p>
               </a>
               <div className="price">
@@ -266,7 +267,7 @@ function Main() {
             <div className="item_box">
               <a href="#!">
                 <div className="img"></div>
-                <span className="area"></span>
+                <p className="area"></p>
                 <p className="product"></p>
               </a>
               <div className="price">
@@ -292,7 +293,7 @@ function Main() {
               <div className="img">
                 <img src="" alt="" />
               </div>
-              <span className="img_bg"></span>
+              <p className="img_bg"></p>
               <div className="club_tit">
                 <p className="area_num">지역/5명</p>
                 <p className="tit">동호회명</p>
@@ -302,7 +303,7 @@ function Main() {
               <div className="img">
                 <img src="" alt="" />
               </div>
-              <span className="img_bg"></span>
+              <p className="img_bg"></p>
               <div className="club_tit">
                 <p className="area_num">지역/5명</p>
                 <p className="tit">동호회명</p>
@@ -312,7 +313,7 @@ function Main() {
               <div className="img">
                 <img src="" alt="" />
               </div>
-              <span className="img_bg"></span>
+              <p className="img_bg"></p>
               <div className="club_tit">
                 <p className="area_num">지역/5명</p>
                 <p className="tit">동호회명</p>
@@ -322,7 +323,7 @@ function Main() {
               <div className="img">
                 <img src="" alt="" />
               </div>
-              <span className="img_bg"></span>
+              <p className="img_bg"></p>
               <div className="club_tit">
                 <p className="area_num">지역/5명</p>
                 <p className="tit">동호회명</p>
@@ -344,16 +345,12 @@ function Main() {
                 <img src="" alt="" />
               </div>
               <div className="event_info">
-                <div className="td_datetime">2021.11.09 - 2021.11.13</div>
-                <div className="td_subject">
-                  <a href="#!" className="bo_cate_link"></a>
-
-                  <div className="bo_tit">
-                    <a href="#!">이벤트 제목</a>
-                    <span className="new_icon">
-                      N<span className="sound_only">새글</span>
-                    </span>
-                  </div>
+                <div className="datetime">2021.11.09 - 2021.11.13</div>
+                <div className="tit_wrap">
+                  <p className="bo_tit">이벤트 제목</p>
+                  <p className="new_icon">
+                    N<span className="sound_only">새글</span>
+                  </p>
                 </div>
               </div>
             </a>
@@ -364,36 +361,28 @@ function Main() {
                 <img src="" alt="" />
               </div>
               <div className="event_info">
-                <div className="td_datetime">2021.11.09 - 2021.11.13</div>
-                <div className="td_subject">
-                  <a href="#!" className="bo_cate_link"></a>
-
-                  <div className="bo_tit">
-                    <a href="#!">이벤트 제목</a>
-                    <span className="new_icon">
-                      N<span className="sound_only">새글</span>
-                    </span>
-                  </div>
+                <div className="datetime">2021.11.09 - 2021.11.13</div>
+                <div className="tit_wrap">
+                  <p className="bo_tit">이벤트 제목</p>
+                  <p className="new_icon">
+                    N<span className="sound_only">새글</span>
+                  </p>
                 </div>
               </div>
             </a>
           </div>
-          <div className="event_item">
+          <div className="event_item event_end">
             <a href="#!">
               <div className="event_bn">
                 <img src="" alt="" />
               </div>
               <div className="event_info">
-                <div className="td_datetime">2021.11.09 - 2021.11.13</div>
-                <div className="td_subject">
-                  <a href="#!" className="bo_cate_link"></a>
-
-                  <div className="bo_tit">
-                    <a href="#!">이벤트 제목</a>
-                    <span className="new_icon">
-                      N<span className="sound_only">새글</span>
-                    </span>
-                  </div>
+                <div className="datetime">2021.11.09 - 2021.11.13</div>
+                <div className="tit_wrap">
+                  <p className="bo_tit">이벤트 제목</p>
+                  <p className="new_icon">
+                    N<span className="sound_only">새글</span>
+                  </p>
                 </div>
               </div>
             </a>
