@@ -1,7 +1,8 @@
 import React from 'react';
 import Head from './Comp/Head.js';
 import Footer from './Comp/Footer.js';
-import Main from './Main.js';
+import Main from './Comp/Main/Main.js';
+
 
 function App() {
   return (
