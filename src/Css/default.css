@@ -13,6 +13,7 @@ legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-inde
 label, input, button, select, img {vertical-align:middle;font-size:1em}
 input, button {margin:0;padding:0;font-family: inherit;font-size:1em;line-height: inherit;}
 input[type="submit"] {cursor:pointer}
+label{display: inline-block;}
 button {outline: none; border: none; cursor:pointer;}
 
 textarea, select {/* font-family:'Malgun Gothic', dotum, sans-serif; */font-size:1em}
