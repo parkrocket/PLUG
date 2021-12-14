@@ -96,6 +96,7 @@ text-overflow:ellipsis; display:inline-block}
 .event_list .event_item.event_end .event_bn img{filter: brightness(50%);}
 .event_list .event_item.event_end .td_datetime,
 .event_list .event_item.event_end .bo_tit a{color: #bbb;}
+.event_list .event_item.event_end .bo_tit .new_icon{display: inline-block;}
 .event_list .event_item.event_end .td_datetime:after{content: '종료'; margin-left: 5px;}
 
 
