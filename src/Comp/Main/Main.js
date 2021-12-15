@@ -2,13 +2,11 @@ import React from 'react';
 import middleBn from '../../Images/main_middle_bn.jpg';
 import '../../Css/default.css';
 import '../../Css/main.css';
-import { Link } from 'react-router-dom';
 import MainBanner from './MainBanner.js';
 import MainComu from './MainComu.js';
 import MainTrade from './MainTrade';
 import MainClub from './MainClub';
 import MainEvent from './MainEvent';
-
 
 function Main(){
     return (

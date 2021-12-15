@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 function MainEvent() {
     return (
         <div className='event_wrap'>
             <div className='title'>
                 <h2>이벤트</h2>
-                <a href='<?= G5_BBS_URL ?>/board.php?bo_table=event'>더보기</a>
+                <a href='#!'>더보기</a>
             </div>
             <div className='event_list'>
                 <div className='event_item'>

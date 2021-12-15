@@ -47,7 +47,7 @@ function Head(){
                         <ul> 
                         
                             <li className='on'>
-                                <a href='#' data='' className='change_ud'><img src='' alt=''/><p></p></a>
+                                <a href='#!' data='' className='change_ud'><img src='' alt=''/><p></p></a>
                                 <span className='icon_bg'></span>
                             </li>
                 
@@ -55,7 +55,7 @@ function Head(){
                     </div>
                 </div>
                 <div className='nav'>
-                    <div className='menu_wrap' id="gnb">
+                    <div className='menu_wrap' id='gnb'>
                         <div className='select'>
                             <div className='selected'>
                                 <img src='' alt=''/>
@@ -65,7 +65,7 @@ function Head(){
                             </div>
                             <div className='option shadow-sm'>
                             
-                                <a href='' className='change_ud' data=''>
+                                <a href='#!' className='change_ud' data=''>
                                     <div className=''>
                                     </div>
                                 </a>
@@ -74,19 +74,19 @@ function Head(){
                         </div>  
 
                         <ul id='gnb_1dul' className='menu'>
-                            <li className='gnb_1dli'><a href='' className='gnb_1da'>커뮤니티</a></li>
-                            <li className='gnb_1dli'><a href='' className='gnb_1da'>동호회</a></li>
-                            <li className='gnb_1dli'><a href='' className='gnb_1da'>중고마켓</a></li>
-                            <li className='gnb_1dli'><a href='' className='gnb_1da'>번개모임</a></li>
-                            <li className='gnb_1dli'><a href='' className='gnb_1da'>플러그맵</a></li>
-                            <li className='gnb_1dli'><a href='' className='gnb_1da'>이벤트</a></li>
+                            <li className='gnb_1dli'><a href='#!' className='gnb_1da'>커뮤니티</a></li>
+                            <li className='gnb_1dli'><a href='#!' className='gnb_1da'>동호회</a></li>
+                            <li className='gnb_1dli'><a href='#!' className='gnb_1da'>중고마켓</a></li>
+                            <li className='gnb_1dli'><a href='#!' className='gnb_1da'>번개모임</a></li>
+                            <li className='gnb_1dli'><a href='#!' className='gnb_1da'>플러그맵</a></li>
+                            <li className='gnb_1dli'><a href='#!' className='gnb_1da'>이벤트</a></li>
                         </ul>
 
                         <ul className='hd_login'>
                             {/* <li><a href='#!'>마이페이지</a></li>
                             <li><a href='#!'>로그아웃</a></li>
                             <li className='tnb_admin'><a href='#!'>관리자</a></li> */}
-                            <li><Link to="/registerform">회원가입</Link></li>
+                            <li><Link to='/registerform'>회원가입</Link></li>
                             <li><Link to='/login'>로그인</Link></li>
                             <li className='write_btn'>
                                 <button className='write_drop'>글쓰기</button>

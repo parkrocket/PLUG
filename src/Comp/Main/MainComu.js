@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function MainComu(){
     return(
@@ -11,7 +10,7 @@ function MainComu(){
             <div className='best_talk'>
                 <ul>
                     <li>
-                        <a href=''>
+                        <a href='#!'>
                             <div className='img'></div>
                             <div className='tit_wrap'>
                                 <p className='tit'>test</p>

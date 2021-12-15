@@ -14,4 +14,5 @@ function MainBanner(){
         </div>
     );
 }
+
 export default MainBanner;
