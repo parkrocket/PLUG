@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Admin from './Admin';
-import Login from '../Login/Login.js';
+import Login from '../Comp/Login/Login.js';
 import { useNavigate } from 'react-router-dom';
 
 const Root = (props) => {

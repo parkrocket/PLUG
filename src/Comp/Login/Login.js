@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import socialIcon01 from '../Images/ico_naver.png';
-import socialIcon02 from '../Images/ico_kakao.png';
-import login_bn from '../Images/login_banner.png';
-import '../Css/default.css';
-import './login.css';
-import Head from '../Comp/Head.js';
-import Footer from '../Comp/Footer.js';
+import socialIcon01 from '../../Images/ico_naver.png';
+import socialIcon02 from '../../Images/ico_kakao.png';
+import login_bn from '../../Images/login_banner.png';
+import '../../Css/default.css';
+import '../../Css/login.css';
+import Head from '..//Head.js';
+import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
@@ -37,7 +37,7 @@ const Login = () => {
             <Head></Head>
       
             <form onSubmit={submitHandler}>
-                <div className='body_wrap'>
+                <div className='login_wrap'>
                     <p className="logo_title">로그인</p>
                     <div className='input_wrap'>
                         <input type="text" name="mb_id" id='' className='login_box box_1 write_box_style' defaultValue="" onChange={mbIdHandler} placeholder='이메일'></input>

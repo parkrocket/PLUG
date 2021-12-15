@@ -86,7 +86,7 @@ function Head(){
                             {/* <li><a href='#!'>마이페이지</a></li>
                             <li><a href='#!'>로그아웃</a></li>
                             <li className='tnb_admin'><a href='#!'>관리자</a></li> */}
-                            <li><a href='#!'>회원가입</a></li>
+                            <li><Link to="/registerform">회원가입</Link></li>
                             <li><Link to='/login'>로그인</Link></li>
                             <li className='write_btn'>
                                 <button className='write_drop'>글쓰기</button>

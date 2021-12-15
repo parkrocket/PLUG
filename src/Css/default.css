@@ -24,6 +24,11 @@ pre {overflow-x:scroll;font-size:1.1em}
 ul,li{list-style: none;}
 a {color:#000;text-decoration:none}
 
+input.write_box_style,.write_box_style textarea,select.write_box_style{font-size: 15px; border: 1px solid #ddd!important; border-radius: 5px!important; color: #222;}
+input.write_box_style:focus,.write_box_style textarea:focus,select.write_box_style:focus {box-shadow: none; border:1px solid #ff5000!important;}
+select.write_box_style option{color: #222!important;}
+input.write_box_style::placeholder, .write_box_style textarea::placeholder{color: #bbb; font-size: 15px;}
+
 #contents{width: 1136px; margin: 40px auto 0;}
 
 .msg_sound_only, .sound_only {display:inline-block !important;position:absolute;top:0;left:0;width:0;height:0;margin:0 !important;padding:0 !important;font-size:0;line-height:0;border:0 !important;overflow:hidden !important}
