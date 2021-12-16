@@ -12,7 +12,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const Login = () => {
   const [mbId, setMbId] = useState('');
   const [mbPass, setMbPass] = useState('');
-  const [logged, setLogged] = useState(window.sessionStorage.getItem('loginResult') || false);
+  const [logged, setLogged] = useState(window.sessionStorage.getItem('loginResult') || 'false');
 
   const navigate = useNavigate();
 
@@ -23,11 +23,11 @@ const Login = () => {
     setMbPass(e.target.value);
   };
 
-  const submitHandler = (e) => {
+  const submitHandler = async (e) => {
     e.preventDefault();
 
     let data = { mb_id: mbId, mb_pass: mbPass };
-    axios
+    await axios
       .post('http://175.125.95.182:4000/login', data)
       .then((res) => {
         window.sessionStorage.setItem('loginResult', res.data.loginResult);
@@ -37,19 +37,24 @@ const Login = () => {
         //console.log(setLogged);
         setLogged(loginResult);
         console.log(loginResult);
-        console.log(logged);
+        if (loginResult === 'true') {
+          navigate('/');
+        } else {
+          alert('비번 틀림 ^ㅁ^ 다시하셈');
+        }
+        // console.log(loginResult);
+        // console.log(logged);
       })
       .catch();
   };
 
-  const loggeds = logged;
   useEffect(() => {
-    console.log(loggeds);
-    if (loggeds === false) {
+    console.log(logged);
+    if (logged === 'false') {
       //navigate('/login');
       console.log('로그인안됨');
     } else {
-      // navigate('/admin');
+      navigate('/');
       console.log('로그인완료');
     }
   }, []);
