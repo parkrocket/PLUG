@@ -42,9 +42,10 @@ const Login = () => {
       .catch();
   };
 
+  const loggeds = logged;
   useEffect(() => {
-    console.log(logged);
-    if (logged === false) {
+    console.log(loggeds);
+    if (loggeds === false) {
       //navigate('/login');
       console.log('로그인안됨');
     } else {
